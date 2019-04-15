@@ -11,9 +11,11 @@ Once logged in, download and install the `fly` CLI using the links provided in t
 
 Almost all interaction with Concourse is done via the Fly CLI, so lets login:
 
-```fly -t workshop login \ 
+```
+fly -t workshop login \ 
     -c https://concourse.workshop.paasify.org \ 
-    -u <username> -p <password>```
+    -u <username> -p <password>
+```
 
 To ensure that you've logged in correctly lets issue the command to retrieve pipelines:
 
