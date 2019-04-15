@@ -138,7 +138,7 @@ jobs:
 Update your concourse pipeline with the set-pipeline command.  Remember, your pipeline.yml file is now in a different location:
 
 ```
-$ fly -t default set-pipeline -p pipeline -c ci/pipeline.yml
+fly -t default set-pipeline -p pipeline -c ci/pipeline.yml
 ```
 
 You'll note your pipeline now steps (or jobs).  1) Unit test your code and 2) Package/Deploy your code.  
