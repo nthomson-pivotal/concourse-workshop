@@ -62,7 +62,7 @@ jobs:
 Update your pipeline in on the concourse server with the `set-pipeline` command:
 
 ```
-fly -t default set-pipeline -p pipeline -c pipeline.yml
+fly -t workshop set-pipeline -p pipeline -c pipeline.yml
 ```
 
 You'll note that when you update a pipeline the fly CLI response will highlight what has changed in the pipeline.
